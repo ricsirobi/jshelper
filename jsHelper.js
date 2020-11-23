@@ -1,3 +1,4 @@
-var a = "alma";
-var ketto = "2";
-console.log("a:" + a);
+function gei(a)
+{
+return document.getElementById(a);
+}
