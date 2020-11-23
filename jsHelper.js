@@ -1,4 +1,4 @@
-function getid(a)
+function getid(aa)
 {
-return document.getElementById(a);
+return document.getElementById(aa);
 }
