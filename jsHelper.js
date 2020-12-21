@@ -2,6 +2,7 @@
         {
             console.log("Free to use, don't sell it");
             console.log("All rights reserved, created by Ács Róbert");
+            stripe("red");stripe("white");stripe("green");
         }
         copyright();
         ////////////////////////////
