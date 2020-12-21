@@ -3,6 +3,7 @@
             console.log("Free to use, don't sell it");
             console.log("All rights reserved, created by Ács Róbert");
         }
+        copyright();
         ////////////////////////////
         function geteid(id)
         {
@@ -50,3 +51,17 @@
         {
             element.onclick = f;
         }
+        ////////////////////////////
+        function copy()
+        {
+            document.execCommand("copy");
+        }
+        function paste()
+        {
+            document.execCommand("paste");
+        }
+        function cut()
+        {
+            document.execCommand("cut");
+        }
+       
